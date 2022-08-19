@@ -37,7 +37,7 @@ export default function retryAdapterEnhancer(adapter: AxiosAdapter, options: Opt
 				count++;
 
 				/* istanbul ignore next */
-				if (process.env.LOGGER_LEVEL === 'info') {
+				if (process && process.env.LOGGER_LEVEL === 'info') {
 					console.info(`[axios-extensions] request start retrying --> url: ${config.url} , time: ${count}`);
 				}
 

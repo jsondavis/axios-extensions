@@ -2,8 +2,8 @@
   "name": "axios-extensions",
   "version": "3.1.3",
   "description": "make axios great again",
-  "homepage": "https://github.com/kuitos/axios-extensions",
-  "repository": "https://github.com/kuitos/axios-extensions.git",
+  "homepage": "https://github.com/jsondavis/axios-extensions",
+  "repository": "https://github.com/jsondavis/axios-extensions.git",
   "license": "MIT",
   "author": "kuitos",
   "keywords": [
